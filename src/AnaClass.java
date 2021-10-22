@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class AnaClass {
     public static void main(String[] args) {
 
-Adresss adr=new Adresss();
+        Adresss adr = new Adresss();
         Student std = new Student();
 
 
