@@ -7,19 +7,22 @@ public class TimeOut {
 
     public static void main(String[] args) {
 
-
         Scanner N = new Scanner(System.in);
         System.out.print("n=");
         int a = N.nextInt();
+        boolean b = false;
         for (int i = 2; i < a; i++) {
             if (a % i == 0) {
-                System.out.println(i + "    murekkeb");
+                b = true;
                 break;
-            } else {
-                System.out.println(i + "    sade");
-
             }
 
+        }
+
+        if (b) {
+            System.out.println("murekkeb");
+        } else {
+            System.out.println("sade");
         }
     }
 }
